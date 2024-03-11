@@ -1,0 +1,29 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px #959595;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  width: 25%;
+}
+
+.card_container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card_container_react {
+  background-color: red;
+}
+
+.card_container_css {
+  background-color: blue;
+}
+
+.card_container_html {
+  background-color: green;
+}

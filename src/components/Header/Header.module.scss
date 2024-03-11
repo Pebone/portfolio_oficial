@@ -1,0 +1,25 @@
+.header_container {
+  position: fixed;
+  width: 92%;
+  height: fit-content;
+  background-color: #ffffff;
+  padding: 2rem 4rem;
+}
+
+.header_container_logo {
+  cursor: pointer;
+  float: left;
+}
+
+.header_container_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  float: right;
+}
+
+.header_container_menu a {
+  color: #000000;
+  text-decoration: none;
+}
